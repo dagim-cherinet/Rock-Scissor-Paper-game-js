@@ -1,0 +1,63 @@
+img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+}
+#scissor {
+  border: 1px solid burlywood;
+}
+.flex-box,
+.newDiv {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+img:hover {
+  box-shadow: 5px 5px 10px rgb(163, 158, 158);
+  transform: scale(1.01);
+}
+.container {
+  text-align: center;
+  width: 75%;
+  margin-top: 40px;
+}
+h2 {
+  margin-bottom: 40px;
+}
+
+#test {
+  margin: 10px auto;
+}
+.test2 {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.hide {
+  display: none;
+}
+.blue {
+  box-shadow: 5px 5px 10px blueviolet;
+}
+.userWon {
+  color: green;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.compWon {
+  color: pink;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.draw {
+  color: aqua;
+  font-weight: bold;
+
+  text-transform: capitalize;
+}
+.button {
+  margin-top: 50px;
+  padding: 0.4rem 2rem;
+  text-transform: capitalize;
+}
